@@ -8,11 +8,10 @@ particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
 
-/* Javascript file tfor devfolio button*/
+/* Javascript file for devfolio button*/
 document.addEventListener('DOMContentLoaded', function () {
   let devfolioOptions = {
-      buttonSelector: '#devf
-olio-apply-now',
+      buttonSelector: '#devfolio-apply-now',
       key: 'myhackathonkey',
   }
 
