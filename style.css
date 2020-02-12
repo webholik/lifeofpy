@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0%;
+
+	margin:0%;
+	font-family: 'Lato';
+}
+
+
+.navbar{
+	margin-top:1%;
+	margin-left:5%;
+	width:90%;
+	
+	/*height:10%;*/
+	border-radius:3px;
+
+}
+.navbar-light{
+	background-color:#FFFFFF!important;
+	opacity:0.7;
+	background-color:grey;
+
+	
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+}
+.navbar-brand{
+	font-family: 'Pacifico';
+	font-size:35px;
+	color:lightcoral !important;
+}
+
+.nav-link{
+	font-size:15px;
+	margin:10px;
+
+	color:black !important;
+/*	font-family:Roboto Condensed;
+	letter-spacing: 2px;*/
+}
+.nav-link:hover{
+	color:grey!important;
+}
+/*#00E8E8 */
+.active .nav-link{
+	color:grey!important;
+}
+
+.menu-right-btn{
+	margin-top:9px;
+	margin-bottom:2px;
+	padding:13px 46px;
+	margin-right: 4%;
+	background-color: transparent;
+	transition: all 300ms ease-in !important;
+}
+
+.menu-right-btn:hover{
+	color:white;
+	background-color:grey;
+}
+
+.site-content{
+	/*background-image: url(images/p3.jpg);*/
+	/*background-attachment: fixed;
+	background-size:cover;*/
+	position:absolute;
+	margin-left:8%;
+	margin-top:20%;
+	
+
+}
+
+
+
+
+.site-title, .site-desc{
+	color:white;
+
+}
+
+.site-title{
+	margin-top:10%;
+	/*margin-bottom:6%;*/
+	font-size:120px;
+	font-family:'Roboto' sans-serrif;
+	letter-spacing:1px;
+}
+
+.site-desc{
+	font-size:20px;
+	width:56%;
+}
+
+.site-btn1{
+	/*margin-left: 20%;*/
+	background-color:black;
+	color:white; 
+	opacity:0.8;
+}
+
+/*.site-btn2{
+	
+	background-color:white;
+	 
+}*/
+
+.site-btn1,.site-btn2{
+	/*margin-top:5%;
+	margin-bottom:27%;*/
+
+}
+
+
+/*Section-1*/
+
+.section-1 .heading-1{
+	margin-top:8%;
+}
+
+.section-1 .heading-2{
+	margin-bottom: 5%;
+	font-size: 39px;
+}
+
+.section-1 .para-1{
+	width:60%;
+	margin-left:20%;
+	margin-bottom:5%;
+}
+
+.section-1 .card-text,.para-1{
+	color:rgba(0,0,0,0.59);
+}
+
+.section-1{
+	margin-bottom: 8%;
+}
+
+.card{
+	width:20rem;
+}
+
+/*Section-2*/
+
+
+.section-2 .container-fluid{
+	background-image:url(images/p3.jpg);
+	background-size:cover;
+	background-attachment:fixed; 
+}
+
+.section-2 .heading-1{
+margin-top:20%;
+margin-bottom: 4%;
+width:80%;
+font-family: 'Righteous';
+color:whitesmoke;
+}
+
+.section-2 .para{
+	width: 80%;
+	font-family: 'Ubuntu';
+	color: whitesmoke;margin-bottom: 7%;
+}
+
+.section-2 .btn{
+	margin-bottom:15%;
+	width:30%;
+	padding:2% 5%;
+
+}
+
+/*Section-3*/
+
+.section-3{
+	margin-top: 6%;
+
+}
+
+.section-3 i{
+	color:grey;
+}
+
+.section-3 p{
+	color:rgba(0,0,0,0.59);
+}
+
+/*Section-4*/
+
+.section-4{
+	margin-top:8%;
+}
+
+.section-4 .row .col-md-7,.col-md-5{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.section-4 a{
+	color:lightseagreen;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+.section-4 .para-1{
+	color: rgb(255,255,255,0.8);
+	margin-top:7%;
+	font-size: 23px;
+
+}
+
+/*Footer*/
+
+.social{
+	color:#EF5651;
+	font-size:20px;
+}
+
+
+
+
+@media screen and (max-width:768px){
+	
+	.section-1 .card{
+		width:14rem;
+	}
+
+	.section-4 .col-md-7{
+		width: 350px;
+	}
+}
+
+@media screen and (max-width:414px){
+
+
+
+#particles-js{
+	height:480px;
+}
+ .site-content .site-title{
+ 	font-size:50px;
+ 	margin-top:25%;
+ 	padding-left:15%;
+ }
+
+.site-desc{
+		font-size:18px;
+		margin-left:30%;
+		margin-top:10%;
+		margin-bottom:10%; 
+	}
+
+	
+
+	.site-content .site-btn1{
+		margin-left:30%;
+
+	}
+
+	.section-1 .heading-1, .section-1 .heading-2{
+		font-size:25px;
+	}
+
+	.section-1 .col-md-4{
+		padding:5%;
+		margin-left:15%;
+	}
+	.section-1 .card{
+		width:15rem;
+	}
+
+	.section-4 .col-md-5{
+		padding:0% 15%;
+	}
+
+	footer input[type="button"]{
+		margin-top:5%;
+	}
+
+}
+
+@media screen and (max-width:375px){
+	
+#particles-js{
+	height:360px;
+}
+	
+	.site-content .site-title{
+		font-size:48px;
+		padding-left:15%;
+		margin-top:25%;
+		
+
+	}
+
+	.site-desc{
+		font-size:15px;
+		margin-left:15%;
+		margin-top:10%;
+		margin-bottom:10%; 
+	}
+
+	
+
+	.site-content .site-btn1{
+		margin-left:30%;
+
+	}
+
+	.section-1 .heading-1, .section-1 .heading-2{
+		font-size:25px;
+	}
+
+	.section-1 .col-md-4{
+		padding:5%;
+		margin-left:8%;
+	}
+	.section-1 .card{
+		width:15rem;
+	}
+
+	.section-4 .col-md-5{
+		padding:0% 15%;
+	}
+
+	footer input[type="button"]{
+		margin-top:5%;
+	}
+}

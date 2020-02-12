@@ -1,0 +1,30 @@
+
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+
+
+
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  /*width: 100%;
+  height: 100%;*/
+
+  background-color: black;
+  background-image: url('images/p7.jpg');
+  background-size: cover;
+/*  background-position: 50% 50%;*/
+  background-repeat: no-repeat;
+  opacity:1;
+  display:block;
+
+
+}
