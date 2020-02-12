@@ -8,6 +8,29 @@ particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
 });
 
+/* Javascript file tfor devfolio button*/
+document.addEventListener('DOMContentLoaded', function () {
+  let devfolioOptions = {
+      buttonSelector: '#devf
+olio-apply-now',
+      key: 'myhackathonkey',
+  }
+
+  let script = document.createElement('script');
+  script.src = "https://apply.devfolio.co";
+  document.head.append(script);
+
+  script.onload = function () {
+      new Devfolio(devfolioOptions);
+  }
+
+  script.onerror = function () {
+      document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+      });
+  }
+});
+
 
 /* Otherwise just put the config content (json): */
 
