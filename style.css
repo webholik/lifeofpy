@@ -201,6 +201,7 @@ color:whitesmoke;
 
 .section-4{
 	margin-top:8%;
+	padding-bottom: 7%;
 }
 
 .section-4 .row .col-md-7,.col-md-5{
@@ -219,6 +220,12 @@ color:whitesmoke;
 	margin-top:7%;
 	font-size: 23px;
 
+}
+.section-4 .card{
+	width: 50rem;
+}
+.section-4 .faq-heading{
+	margin-top: 3rem;
 }
 
 /*Footer*/
