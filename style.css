@@ -227,6 +227,15 @@ color:whitesmoke;
 .section-4 .faq-heading{
 	margin-top: 3rem;
 }
+.section-5 p{
+	color: black;
+}
+.section-5 a{
+	color:#EF5651
+}
+.section-5 a:hover{
+	color: crimson;
+}
 
 /*Footer*/
 
