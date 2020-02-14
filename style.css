@@ -11,8 +11,8 @@ html{
 body{
 	padding: 0%;
 	margin:0%;
-	font-family: 'Quicksand' !important;
-	/* font-family: 'Lato'; */
+	/* font-family: 'Quicksand' !important; */
+	font-family: 'Lato';
 	/* font-family: 'Nunito'; */
 	/* font-family: 'Quickstand'; */
 }
@@ -38,7 +38,7 @@ body{
 box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 }
 .navbar-brand{
-	font-family: 'Turret Road';
+	font-family: 'Turret Road';				/*Don't change this*/
 	font-weight: bolder;
 	font-size:35px;
 	color:lightcoral !important;
@@ -47,7 +47,7 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 .nav-link{
 	font-size:15px;
 	margin:10px;
-	font-family: 'comfortaa'!important;
+	font-family: 'Nunito'!important;
 	color:black !important;
 /*	font-family:Roboto Condensed;
 	letter-spacing: 2px;*/
@@ -97,7 +97,7 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 	margin-top:10%;
 	/*margin-bottom:6%;*/
 	font-size:120px;
-	font-family:'Righteous'!important;
+	font-family:'Righteous'!important;			/*Don't change this*/
 	letter-spacing:1px;
 }
 
@@ -169,13 +169,13 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 margin-top:20%;
 margin-bottom: 4%;
 width:80%;
-font-family: 'Nunito';
+font-family: 'Lato';
 color:whitesmoke;
 }
 
 .section-2 .para{
 	width: 80%;
-	font-family: 'Josefin';
+	font-family: 'Lato';
 	color: whitesmoke;margin-bottom: 7%;
 }
 
