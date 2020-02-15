@@ -46,10 +46,10 @@ body{
 	letter-spacing: 2px;
 }
 .nav-link:hover{
-	color:grey!important;
+	color:lightcoral!important;
 }
 /*#00E8E8 */
-.active .nav-link{
+header .nav-link{
 	color:grey!important;
 }
 
