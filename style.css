@@ -19,38 +19,31 @@ body{
 
 
 .navbar{
-	margin-top:1%;
-	margin-left:5%;
-	width:90%;
-	
-	/*height:10%;*/
-	border-radius:3px;
-
+	border-radius: 3px;
 }
 .navbar-light{
-	background-color:#FFFFFF!important;
-	opacity:0.9;
-	/* background-color:grey; */
-
-	
-	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
--moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 }
+
 .navbar-brand{
 	font-family: 'Turret Road';				/*Don't change this*/
 	font-weight: bolder;
 	font-size:35px;
 	color:lightcoral !important;
 }
+/* .navbar-nav{
+	margin-right: 10%;
+} */
 
 .nav-link{
-	font-size:15px;
-	margin:10px;
-	font-family: 'Nunito'!important;
+	/* font-size:15px; */
+	/* margin:10px; */
+	font-family: 'Ubuntu'!important;
 	color:black !important;
-/*	font-family:Roboto Condensed;
-	letter-spacing: 2px;*/
+	/* font-family:Roboto Condensed; */
+	letter-spacing: 2px;
 }
 .nav-link:hover{
 	color:grey!important;
@@ -60,7 +53,7 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 	color:grey!important;
 }
 
-.menu-right-btn{
+/* .menu-right-btn{
 	margin-top:9px;
 	margin-bottom:2px;
 	padding:13px 46px;
@@ -72,7 +65,7 @@ box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.65);
 .menu-right-btn:hover{
 	color:white;
 	background-color:grey;
-}
+} */
 
 .site-content{
 	/*background-image: url(images/p3.jpg);*/
