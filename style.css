@@ -259,7 +259,10 @@ color:whitesmoke;
 .section-5 a:hover{
 	color: crimson;
 }
-
+.section-4 .card-body p{
+	text-align: justify;
+  	text-justify: inter-word;
+}
 /*Footer*/
 
 .social{
