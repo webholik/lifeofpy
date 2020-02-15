@@ -329,6 +329,10 @@ color:whitesmoke;
 
 	}
 
+	.dev-btn{
+		margin-left: 20%;
+	}
+
 	.section-1 .heading-1, .section-1 .heading-2{
 		font-size:25px;
 	}
