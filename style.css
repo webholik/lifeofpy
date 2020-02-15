@@ -190,6 +190,11 @@ color:whitesmoke;
 	font-size: large;
 }
 
+.section-2 p{
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
 /*Section-3*/
 
 .section-3{
