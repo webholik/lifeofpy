@@ -148,6 +148,10 @@ header .nav-link{
 .card{
 	width:20rem;
 }
+.card p{
+	text-align: justify;
+  	text-justify: inter-word;
+}
 
 /*Section-2*/
 
