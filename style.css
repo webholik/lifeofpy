@@ -204,6 +204,9 @@ color:whitesmoke;
 .section-3 p{
 	color:rgba(0,0,0,0.59);
 }
+/* .section-3 .row{
+	margin-left: 9%;
+} */
 
 /*Section-4*/
 
@@ -287,13 +290,10 @@ color:whitesmoke;
 
 
 
-
-
-
 @media screen and (max-width:768px){
 	
 	.section-1 .card{
-		width:14rem;
+		width: 14rem;
 	}
 
 	.section-4 .col-md-7{
@@ -305,16 +305,17 @@ color:whitesmoke;
 
 
 
-#particles-js{
-	height:480px;
-}
- .site-content .site-title{
- 	font-size:50px;
- 	margin-top:25%;
- 	padding-left:15%;
- }
+	#particles-js{
+		height: 480px;
+	}
 
-.site-desc{
+	.site-content .site-title{
+		font-size:50px;
+		margin-top:25%;
+		padding-left:15%;
+	}
+
+	.site-desc{
 		font-size:18px;
 		margin-left:30%;
 		margin-top:10%;
