@@ -77,6 +77,9 @@ header .nav-link{
 	
 
 }
+.site-content h1 a:hover{
+	text-decoration: none;
+}
 
 
 
@@ -249,6 +252,9 @@ color:whitesmoke;
 }
 .section-4 .faq-heading{
 	margin-top: 3rem;
+}
+#accordion p{
+	color: ghostwhite;
 }
 .section-5 p{
 	color: black;
